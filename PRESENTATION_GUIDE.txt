@@ -1,0 +1,15 @@
+FITNESS MEALS — CIS201 PRESENTATION GUIDE
+
+Slide 1: Introduce the project: Fitness Meals, an interactive healthy-food website.
+Slide 2: Explain the objectives (HTML pages, common header/footer, CSS, JavaScript).
+Slide 3: Demonstrate the forms on page1 to page4 and form validation.
+Slide 4: Show conditional calorie feedback, and why Next appears after valid input.
+Slide 5: Show the menu categories, images and table of prices.
+Slide 6: Press Add to Order twice and show the correctly calculated total on page9.
+Slide 7: Explain CSS files (mysheetc.css), JavaScript file (myscript.js), and closing remarks.
+
+Before presentation:
+- Verify that your name and email are correct; add your course section if needed.
+- Practice explaining each line you wrote, especially localStorage, if/else, buttons, and total calculation.
+- Note that the order is a course demo, not a real restaurant order.
+- Add the actual GitHub repository link to the report and uploaded files.

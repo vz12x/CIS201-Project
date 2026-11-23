@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weekly Calories Burn | Fitness Meals</title>
+<link rel="stylesheet" href="mysheetc.css">
+<script defer src="myscript.js"></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="images/logo.svg" alt="Fitness Meals logo"><span>Fitness Meals</span></a><nav class="nav_menu" aria-label="Main navigation"><a href="index.html">Home</a><a href="page1.html">Contact</a><a href="page5.html">Project</a><a href="about.html">About Us</a></nav><a class="basket-link" href="page9.html" aria-label="View order">My order <span id="cartCount">0</span></a></header>
+<main class="main-content"><section class="container form-card" id="page4"><span class="eyebrow">STEP 4 OF 4</span><h1>Weekly Calories Burn</h1><p>Enter your approximate weekly calories burned.</p>
+<form id="burnForm" onsubmit="showMessage(event)"><label for="burn">Calories burned this week</label><input type="number" id="burn" min="0" max="100000" step="1" required placeholder="Enter calories"><button type="submit">Check activity</button></form>
+<p id="message" class="feedback" aria-live="polite"></p><div class="buttons"><a class="button secondary" href="page3.html">Back</a><a class="button next-btn hidden" id="nextBtn" href="page5.html">Next</a></div><p class="privacy-note">Simple educational thresholds only; not a fitness assessment.</p></section></main>
+<footer class="footer"><p>🥗 Eat Fresh • Live Well • Stay Healthy 🥑</p><small>Fitness Meals · CIS201 educational demo · No real purchases or orders are sent</small></footer>
+</body>
+</html>

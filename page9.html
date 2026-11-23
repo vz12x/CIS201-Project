@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your Demo Order | Fitness Meals</title>
+<link rel="stylesheet" href="mysheetc.css">
+<script defer src="myscript.js"></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="images/logo.svg" alt="Fitness Meals logo"><span>Fitness Meals</span></a><nav class="nav_menu" aria-label="Main navigation"><a href="index.html">Home</a><a href="page1.html">Contact</a><a href="page5.html">Project</a><a href="about.html">About Us</a></nav><a class="basket-link" href="page9.html" aria-label="View order">My order <span id="cartCount">0</span></a></header>
+<main class="main-content"><section class="container wide order-page"><span class="eyebrow">FINAL STEP</span><h1>My Demo Order</h1><p>Review your selected items before confirming the demonstration.</p>
+<div class="review-grid"><div class="review-card"><h2>Selected Items</h2><div class="table-wrap"><table class="price-table" id="orderTable"><thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Action</th></tr></thead><tbody id="orderRows"></tbody></table></div><p id="emptyCart">Your order is empty. <a href="page5.html">Explore the menu</a>.</p><div class="order-total">Total: <span id="orderTotal">0 SAR</span></div></div>
+<div class="review-card"><h2>Your Details</h2><div id="customerSummary" class="summary-lines"></div><p class="privacy-note">Demo only. Data stays in this browser and no real order is sent.</p><button id="confirmButton" type="button" onclick="confirmOrder()">Confirm Demo Order</button><button class="button secondary" type="button" onclick="clearOrder()">Clear Order</button><p id="confirmation" class="feedback" aria-live="polite"></p></div></div>
+<div class="buttons"><a class="button secondary" href="page5.html">Keep Browsing</a><a class="button next-btn" href="index.html">Home</a></div></section></main>
+<footer class="footer"><p>🥗 Eat Fresh • Live Well • Stay Healthy 🥑</p><small>Fitness Meals · CIS201 educational demo · No real purchases or orders are sent</small></footer>
+</body>
+</html>
